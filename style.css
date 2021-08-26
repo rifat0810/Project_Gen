@@ -1,0 +1,151 @@
+body{
+ height: 100%;
+ background: linear-gradient(#161636, white);
+}
+/*header*/
+.header{
+margin-left: 50px;
+padding: 0px;
+}
+/*header text logo*/
+.headertext1{
+display: inline;
+font-size: 35px;
+margin-left: 32px;
+padding: 5px;
+color: white;
+}
+/*header text logo*/
+.headertext2{
+display: inline;
+padding-left: 670px;
+font-size: 15px;
+color: white;
+}
+.button {
+    background-color: blue; /* Green */
+    border: none;
+    color: white;
+    padding: 6px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 6px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #161636;
+	border-top:3px solid white;
+}
+
+li {
+    float: left;
+	margin-left: 70px;
+}
+
+li a {
+    display: block;
+color: white;
+text-align: center;
+padding: 5px 16px;
+text-decoration: none;
+}
+
+li a:hover {
+    background-color: black;
+}
+
+.content >p{
+text-align: center;
+font-size: 25px;
+color: white;
+line-height: .5px
+}
+
+.img{
+border: 1px solid #ddd;
+border-radius: 0px;
+padding: 5px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 30%;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 20px;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+padding: 5px;
+background-color: #161636;
+text-align: left;
+color: white;
+}
+div.desc1 {
+padding: 5px;
+background-color: #161636;
+margin-right: 460px;
+margin-left: 460px;
+
+}
+
+.text{
+color: white;
+font-size: 10px;
+text-align: left;
+}
+
+
+.gellery{
+margin:8px;
+padding:10px;
+}
+
+.footer{
+margin: 0px;
+padding: 0px;
+border-top: 3px solid black;
+line-height: 5px;
+}
+
+.column {
+    float: left;
+width: 23%;
+padding: 10px;
+height: 100px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
